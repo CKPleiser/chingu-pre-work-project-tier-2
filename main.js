@@ -43,7 +43,7 @@ function renderListings(features) {
     filterEl.parentNode.style.display = "block"
   } else {
     var empty = document.createElement("p")
-    empty.textContent = "Drag the map to populate results"
+    empty.textContent = "Drag the map to refresh data"
     listingEl.appendChild(empty)
 
     filterEl.parentNode.style.display = "none"
